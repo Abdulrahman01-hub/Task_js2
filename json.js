@@ -30,6 +30,26 @@
 // }
 // Kapital(100, 10);
 
+//task 4
+// function numberWord(n) {
+//     const text = ["", "bir", "iki", "uc", "dord", "bes", "alti", "yeddi", "sekkiz", "doqquz"];
+//     const text2 = ["", "on", "iyirmi", "otuz", "qirx", "elli", "altmis", "yetmis", "seksen", "doxsan"];
+
+//     if (n < 10) {
+//         return text[n];
+//     } else if (n < 20) {
+//         return "on " + text[n - 10];
+//     } else {
+//         let onluq = text2[Math.floor(n / 10)];
+//         let teklik = n % 10 ? " " + text[n % 10] : "";
+//         return onluq + teklik;
+//     }
+// }
+// console.log(numWord(5));
+// console.log(numWord(10));
+// console.log(numWord(30));
+// console.log(numWord(55));
+
 // task 5
 // function min(a, b) {
 //     if (a < b) {
@@ -83,14 +103,14 @@
 //         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
 //         .join(" ");
 // }
-// console.log(capitalizeWords("Hello my name is Harry")); 
+// console.log(capitalizeWords("Hello my name is Harry"));
 
 // task 9
 // function isEven(number) {
 //   return number % 2 === 0;
 // }
 // console.log(isEven(2));
-// console.log(isEven(7)); 
+// console.log(isEven(7));
 // console.log(isEven(0));
 
 // task 10
@@ -98,7 +118,7 @@
 //   return phone.startsWith("+7") && phone.length === 12;
 // }
 // console.log(isValidNumber("+71234567890"));
-// console.log(isValidNumber("+7987654321"));  
+// console.log(isValidNumber("+7987654321"));
 // console.log(isValidNumber("81234567890"));
 
 //task 11
@@ -136,7 +156,7 @@
 // }
 // console.log(sumOfDigits(1234));
 // console.log(sumOfDigits(567));
-// console.log(sumOfDigits(0));   
+// console.log(sumOfDigits(0));
 
 //task 14
 // function isPalindrome(text) {
@@ -205,3 +225,11 @@
 // console.log(charCodes("Hello"));
 
 //task 20
+function factorial(num) {
+    let hasil = 1
+    for (let a = 1; a <= num; a++) {
+        hasil *= a
+    }
+    console.log(hasil);
+}
+factorial(5)
