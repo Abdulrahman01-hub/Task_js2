@@ -131,7 +131,7 @@
 // console.log(numCounter("AbcDefGHi"));
 
 //task 12
-// function isPrime(number) {
+// function main(number) {
 //   if (number < 2) return false;
 
 //   for (let i = 2; i < number; i++) {
@@ -141,8 +141,8 @@
 //   }
 //   return true;
 // }
-// console.log(isPrime(7));
-// console.log(isPrime(8));
+// console.log(main(7));
+// console.log(main(8));
 
 //task 13
 // function sumOfDigits(number) {
