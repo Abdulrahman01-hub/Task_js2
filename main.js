@@ -12,7 +12,7 @@
 // console.log(x);
 // alert(x);
 
-//task 4
+//task 3
 // function numbers(n) {
 //     let num = 0;
 //     for (; n !== 1; num++) {
@@ -22,7 +22,7 @@
 // }
 // console.log(numbers(11));
 
-//task 5
+//task 4
 // function kvadratlar(a, b) {
 //     return a * a + b * b;
 // }
@@ -32,7 +32,7 @@
 
 // console.log("cavab", netice);
 
-//task 6
+//task 5
 // let eded = 235;
 // let a = Math.floor(eded / 100);  
 // let b = Math.floor((eded % 100) / 10);  
@@ -41,7 +41,7 @@
 // let hasil = a * b * c;
 // console.log("cavab", hasil); 
 
-//task 7
+//task 6
 // function time(t1, t2, t3) {
 //     return Math.min(t1, t2, t3);
 // }
@@ -52,14 +52,14 @@
 // let result = time(t1, t2, t3);
 // console.log("misa'nin sececeyi minimal vaxt", result);
 
-//task 8
+//task 7
 // let letters = ["a", "b", "c"];
 
 // for (let i = 0; i < letters.length; i++) {
 //     console.log(letters[i].repeat(i + 1));
 // }
 
-//task 9
+//task 8
 function quldurlar(a, m) {
     let n = 1;
     while (true) {
