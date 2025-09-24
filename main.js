@@ -60,20 +60,31 @@
 // }
 
 //task 8
-function quldurlar(a, m) {
-    let n = 1;
-    while (true) {
-        let total = n * a + (n * (n - 1)) / 2;
-        if (total === m) {
-            return n;
-        } else if (total > m) {
-            return -1;
-        }
-        n++;
-    }
-}
-
-let a = 5;
-let m = 25;
-
-console.log(quldurlar(a, m));
+// function quldurlar(a, m) {
+//     let n = 1;
+//     while (true) {
+//         let total = n * a + (n * (n - 1)) / 2;
+//         if (total === m) {
+//             return n;
+//         } else if (total > m) {
+//             return -1;
+//         }
+//         n++;
+//     }
+// }
+//task 9
+// function quldurlar(a, m) {
+//     let n = 1;
+//     while (true) {
+//         let total = n * a + (n * (n - 1)) / 2;
+//         if (total === m) {
+//             return n;
+//         } else if (total > m) {
+//             return -1;
+//         }
+//         n++;
+//     }
+// }
+// let a = 5;
+// let m = 25;
+// console.log(quldurlar(a, m));
