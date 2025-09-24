@@ -232,6 +232,7 @@
 //     }
 //     console.log(hasil);
 // }
+<<<<<<< HEAD
 // factorial(5)
 
 //task 1
@@ -317,3 +318,6 @@ let m = 25;
 
 console.log(quldurlar(a, m));
 >>>>>>> 3538544 (task)
+=======
+// factorial(5)
+>>>>>>> 5d94434 (local changes)
