@@ -94,6 +94,26 @@
 // let development = employees.filter(employee => employee[1] === 'development');
 // console.log(development);
 
+// task 11
+// let musteri = ["Abdul Rehimzade", "Amir Ahmedov"];
+
+// function users(text) {
+//     if (text === "") {
+//         let deleted = musteri.shift();
+//         console.log(deleted + " novbede cixdi");
+//     } else if (text === "=") {
+//         console.log("novbede: " + musteri);
+//     } else {
+//         musteri.push(text);
+//         console.log(musteri); 
+//     }
+// }
+// users("Qafar Qemberzade");
+// users("");
+// users("=");
+// users("");
+// users("=")
+
 // task 13
 // function negatives(numbers) {
 //   for (let i = 0; i < numbers.length; i++) {
