@@ -53,9 +53,9 @@
 //     }
 //     return sum;
 // }
-// console.log("il uzre cem", getAnnualSalary());
-// console.log("5 ci ay maaslari", getMonthlySalary(5));
-// console.log("3 cu rubun cemi", getQuarterSalary(3));
+// console.log("il uzre cem", annualSalary());
+// console.log("5 ci ay maaslari", monthlySalary(5));
+// console.log("3 cu rubun cemi", quarterSalary(3));
 
 //task 4
 // let numbers = [];
